@@ -16,7 +16,7 @@
 
 ***
 
-- #### 🚩 Instalacion Automatica Por Termux
+- #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
 ![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)
 > Comandos Para Instalar 𝑯𝒚𝒑𝒆𝒓'𝑽 Forma Automatica Por Termux.
 
