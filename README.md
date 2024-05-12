@@ -17,7 +17,7 @@
 ***
 
 - #### 🚩 Instalacion Automatica Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)]
+![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)
 > Comandos Para Instalar 𝑯𝒚𝒑𝒆𝒓'𝑽 Forma Automatica Por Termux.
 
 ```bash
@@ -28,7 +28,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 
 - #### 🚩 Instalacion Manual Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
+![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge)
 > Escribe Estos Comandos Uno Por Uno
 
 ```bash
