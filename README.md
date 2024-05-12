@@ -17,8 +17,7 @@
 ***
 
 - #### 🚩 Instalacion Automatica Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
-
+[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)]
 > Comandos Para Instalar 𝑯𝒚𝒑𝒆𝒓'𝑽 Forma Automatica Por Termux.
 
 ```bash
