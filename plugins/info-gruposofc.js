@@ -18,7 +18,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'previewType': 'pdf',
         'title': 'ＨｙｐｅｒＶ ／ Ｃｒｅａｄｏ ｐｏｒ ＠ｂｏｙｂｅｎｊｘ７',
         'body': wm,
-        'thumbnail': imagen1,
+        'thumbnail': 'https://telegra.ph/HyperV-05-13-2',
         'sourceUrl': 'https://www.instagram.com/boybenjx7'}},
     'caption': text,
     'footer': wm,
