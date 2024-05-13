@@ -1,14 +1,13 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 𝙳𝙴𝙻 𝙱𝙾𝚃*
+  const text = `*HYPERV TE INVITA A UNIRTE AL GRUPO OFICIAL DE WHATSAPP*
 
 *➤ 𝙶𝚛𝚞𝚙𝚘 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝙱𝚘𝚝:*
 *1.-* https://chat.whatsapp.com/DXAdja6QqGsEqMtuTJNTXn`.trim();
   const buttonMessage= {
     'document': {url: `https://www.instagram.com/boybenjx7`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -18,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://www.instagram.com/boybenjx7',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': 'HYPERV BOT : @BOYBENJX7',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://www.instagram.com/boybenjx7'}},
