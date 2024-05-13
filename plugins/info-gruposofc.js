@@ -10,7 +10,6 @@ const handler = async (m, {conn, usedPrefix}) => {
     'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
     'contextInfo': {
-      'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
         'mediaUrl': 'https://www.instagram.com/boybenjx7',
