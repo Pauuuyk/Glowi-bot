@@ -5,14 +5,14 @@ const handler = async (m, {conn}) => {
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const str = `╭────[ *MichiBot* ]
+    const str = `╭────[ *OWNER BENJA / https://wa.link/bwj7ga* ]
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
 │ *=> 🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│ *=> ✅ 𝐻𝓎𝓅𝑒𝓇𝒱 𝑒𝓁 𝓂𝑒𝒿𝑜𝓉 𝐵𝑜𝓉 𝒹𝑒 𝒲𝒽𝒶𝓉𝓈𝒜𝓅𝓅*
-│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: 𝓞𝔀𝓷𝓮𝓻 @𝓫𝓸𝔂𝓫𝓮𝓷𝓳𝔁7*
-│ *=> 🔗 𝕮𝖚𝖊𝖓𝖙𝖆 𝕺𝖋𝖎𝖈𝖎𝖆𝖑:* https://www.instagram.com/boybenjx7
+│ *=> ✅ HYPERV EL MEJOR BOT DE WHATSAPP*
+│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: https://wa.link/bwj7ga / @boybenjx7*
+│ *=> 🔗 CUENTA OFICIAL IG:* https://www.instagram.com/boybenjx7
 ╰────────────────`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://www.instagram.com/ceogeripium.dzn`, "sourceUrl": `https://www.instagram.com/ceogeripium.dzn`}}}, {quoted: m});
