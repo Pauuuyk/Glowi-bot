@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://www.instagram.com/boybenjx7`},
     'mimetype': `application/${document}`,
-    'fileName': `「  OWNER https://wa.link/bwj7ga 」`,
+    'fileName': `「  OWNER @BOYBENJX7 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
