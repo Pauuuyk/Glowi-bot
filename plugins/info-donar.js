@@ -10,9 +10,9 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 *┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
 *┃ 𝙷𝙾𝙻𝙰 ${name}*
 *┃*
-*┃ 👉🏻 SI DESEAS COMPRAR ESTE BOT HABLA A LOS SIGUIENTES NUMEROS*
-*┃ https://walink.co/62efd1*
-*┃ https://walink.co/6ecb77*
+*┃ 👉🏻 SI DESEAS ADQUIRIR HYPERV BOT HABLA A MI OWNER:*
+*┃ https://wa.link/bwj7ga*
+*┃ https://wa.link/bwj7ga*
 *┗ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
 `.trim();
   const aa = {quoted: m, userJid: conn.user.jid};
