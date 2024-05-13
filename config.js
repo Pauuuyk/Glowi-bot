@@ -10,38 +10,38 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51955095498', 'Richetti', true],
-  ['56945086055', '@ceogeripium.dzn', true],
-  ['51933348947', 'Richetti2', true],
-  ['56954390663', 'GeriPium', true],
-  ['573178206163', 'PolvoraBot', true],
-  ['56945086055', '@ceogeripium.dzn', true],
-  ['56945086055', '@ceogeripium.dzn', true],
-  ['56945086055', '@ceogeripium.dzn', false],
-  ['56945086055', '@ceogeripium.dzn', true],
-  ['56945086055', '@ceogeripium.dzn', true],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'],
-  ['56945086055'], 
-  ['56945086055'],  
-  ['56945086055'], 
-  ['56945086055']
+  ['51936732723', 'OwnerBenjaV', true],
+  ['51936732723', '@boybenjx7', true],
+  ['51936732723', 'HyperV', true],
+  ['51936732723', 'HyperV', true],
+  ['51936732723', 'HyperV', true],
+  ['51936732723', '@boybenjx7', true],
+  ['51936732723', '@boybenjx7', true],
+  ['51936732723', '@boybenjx7', false],
+  ['51936732723', '@boybenjx7', true],
+  ['51936732723', 'OwnerBenjaV', true],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'],
+  ['51936732723'], 
+  ['51936732723'],  
+  ['51936732723'], 
+  ['51936732723']
 ];
 
-global.suittag = ['56945086055'];
-global.prems = ['56945086055'];
+global.suittag = ['51936732723'];
+global.prems = ['51936732723'];
 
-global.packname = 'PolvoraBot';
-global.author = 'PolvoraBot';
-global.wm = 'PolvoraBot';
-global.titulowm = 'PolvoraBot';
-global.titulowm2 = `PolvoraBot`
-global.igfg = 'PolvoraBot';
+global.packname = 'HyperV';
+global.author = 'HyperV';
+global.wm = 'HyperV';
+global.titulowm = 'HyperV';
+global.titulowm2 = `HyperV`
+global.igfg = 'HyperV';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -63,14 +63,14 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ PolvoraBot`;
-global.gt = 'PolvoraBot';
-global.mysticbot = 'PolvoraBot';
-global.md = 'https://www.instagram.com/polvora6969';
-global.mysticbot = 'https://www.instagram.com/polvora6969';
+global.gt = 'HyperV';
+global.mysticbot = 'HyperV';
+global.md = 'https://www.instagram.com/boybenjx7';
+global.mysticbot = 'https://www.instagram.com/boybenjx7';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '56945086055';
+global.nomorown = '51936732723';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
