@@ -27,7 +27,7 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
 ```
 
-- #### 🚩 Instalacion Manual Por Termux
+- #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 Manual 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
 ![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge)
 > Escribe Estos Comandos Uno Por Uno
 
