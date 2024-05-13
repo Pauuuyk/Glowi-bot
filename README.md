@@ -62,14 +62,14 @@ npm start
 > ESCRIBE ESTOS COMANDOS UNO POR UNO:
 ```bash
 > cd
-> cd CuriosityBot-MD
+> cd HyperV
 > npm start
 ```
 
 - #### Adquirir Otro Codigo Qr HyperV
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
 ```bash
-> cd CuriosityBot-MD
+> cd HyperV
 > rm -rf sessions
 > npm start
 ```
