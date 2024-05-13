@@ -24,8 +24,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *GeriPium*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+56 9 4508 6055*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝕆𝕨𝕟𝕖𝕣 @𝕓𝕠𝕪𝕓𝕖𝕟𝕛𝕩𝟟*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+51 936732723*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
@@ -54,19 +54,19 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://www.instagram.com/ceogeripium.dzn` },
+    document: { url: `https://www.instagram.com/boybenjx7` },
     mimetype: `application/${document}`,
-    fileName: `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    fileName: `「  𝓞𝔀𝓷𝓮𝓻 @𝓫𝓸𝔂𝓫𝓮𝓷𝓳𝔁7 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://www.instagram.com/ceogeripium.dzn",
+        mediaUrl: "https://www.instagram.com/boybenjx7",
         mediaType: 2,
         previewType: "pdf",
-        title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
+        title: "𝐻𝓎𝓅𝑒𝓇𝒱 𝑒𝓁 𝓂𝑒𝒿𝑜𝓉 𝐵𝑜𝓉 𝒹𝑒 𝒲𝒽𝒶𝓉𝓈𝒜𝓅𝓅",
         body: wm,
         thumbnail: imagen1,
         sourceUrl: "https://www.instagram.com/ceogeripium.dzn",
