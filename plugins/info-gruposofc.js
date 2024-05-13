@@ -15,7 +15,6 @@ const handler = async (m, {conn, usedPrefix}) => {
       'externalAdReply': {
         'mediaUrl': 'https://www.instagram.com/boybenjx7',
         'mediaType': 2,
-        'previewType': 'pdf',
         'title': 'ＨｙｐｅｒＶ ／ Ｃｒｅａｄｏ ｐｏｒ ＠ｂｏｙｂｅｎｊｘ７',
         'body': wm,
         'thumbnail': imagen1,
