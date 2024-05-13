@@ -8,6 +8,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://www.instagram.com/boybenjx7`},
     'mimetype': `application/${document}`,
+    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -19,7 +20,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'previewType': 'pdf',
         'title': 'ＨｙｐｅｒＶ ／ Ｃｒｅａｄｏ ｐｏｒ ＠ｂｏｙｂｅｎｊｘ７',
         'body': wm,
-        'thumbnail': 'https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn',
+        'thumbnail': imagen1,
         'sourceUrl': 'https://www.instagram.com/boybenjx7'}},
     'caption': text,
     'footer': wm,
