@@ -1,4 +1,5 @@
-const handler = async (m, {conn, usedPrefix}) => {
+const handler = async (m, {conn, usedPrefix}) => { 
+  const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*ＨｙｐｅｒＶ TE INVITA A UNIRTE AL GRUPO OFICIAL DE WHATSAPP*
 
