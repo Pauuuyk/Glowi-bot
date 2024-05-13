@@ -18,7 +18,7 @@
 
 - #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
 ![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)
-> Comandos Para Instalar 𝑯𝒚𝒑𝒆𝒓'𝑽 Forma Automatica Por Termux.
+> Escribe Estos Comandos Para Instalar HyperV De Forma Automatica
 
 ```bash
 termux-setup-storage
@@ -29,7 +29,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 
 - #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 Manual 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
 ![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge)
-> Escribe Estos Comandos Uno Por Uno
+> Escribe Estos Comandos Para Instalar HyperV Paso Por Paso
 
 ```bash
 termux-setup-storage
@@ -58,7 +58,7 @@ npm update
 npm start
 ```
 
-- #### 🚩 Activar En Caso De Detenerse En Termux
+- #### Activar HyperV En Caso De Detenerse (Termux)
 > Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
@@ -66,7 +66,7 @@ npm start
 > npm start
 ```
 
-- #### 🚩 Obtener Otro Codigo Qr
+- #### Adquirir Otro Codigo Qr HyperV
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
 ```bash
 > cd CuriosityBot-MD
@@ -74,8 +74,8 @@ npm start
 > npm start
 ```
 
-- ### 🚩 Actualizar 𝑯𝒚𝒑𝒆𝒓'𝑽 
-> Note Comandos para actualizar CuriosityBot-MD de forma automática
+- ### Actualizar A La Ultima Version De 𝑯𝒚𝒑𝒆𝒓'𝑽 
+> Comandos Para Actualizar De Forma Automatica A HyperV
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/update.sh | bash
 ```
