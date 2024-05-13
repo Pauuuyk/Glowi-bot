@@ -9,7 +9,6 @@ const handler = async (m, {conn, usedPrefix}) => {
     'document': {url: `https://www.instagram.com/boybenjx7`},
     'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
-    'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
