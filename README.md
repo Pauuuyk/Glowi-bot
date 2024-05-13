@@ -24,7 +24,7 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
+
 ```
 
 - #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 Manual 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
@@ -44,7 +44,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/boybenjx7/Hyper-V && cd Hyper-V && yarn install && npm install
+git clone https://github.com/boybenjx7/HyperV && cd HyperV && yarn install && npm install
 ```
 
 ```bash
@@ -74,11 +74,6 @@ npm start
 > npm start
 ```
 
-- ### Actualizar A La Ultima Version De 𝑯𝒚𝒑𝒆𝒓'𝑽 
-> Comandos Para Actualizar De Forma Automatica A HyperV
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/update.sh | bash
-```
 
 > ESTOS COMANDOS SOLO FUNCIONAN PARA TERMUX, REPLIT, LINUX
 
