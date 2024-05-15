@@ -10,7 +10,7 @@ let teks = `*╭═══〘 ✯𝙃𝙔𝙋𝙀𝙍´𝙑 𝙇𝙊𝙎 𝙄𝙉
 \n`
 for (let mem of participants) {
 teks += `║➤ ❄ @${mem.id.split('@')[0]}\n`}
-teks += `*╰═══╡✯ 🤖𝙊𝙬𝙣𝙚𝙧:https://wa.me/51936732723 ✯╞═══╯*`
+teks += `*╰═══╡ https://wa.me/51936732723 ╞═══╯*`
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
