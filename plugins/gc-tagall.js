@@ -5,11 +5,11 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-let oi = `*Owner: @boybenjx7 / https://wa.link/bwj7ga* ${pesan}`
-let teks = `*𝑯𝒀𝑷𝑬𝑹𝑽 𝒊𝒏𝒗𝒐𝒄𝒂 𝒂 𝒕𝒐𝒅𝒐𝒔 𝒍𝒐𝒔 𝒎𝒊𝒆𝒎𝒃𝒓𝒐𝒔 𝒅𝒆𝒍 𝒈𝒓𝒖𝒑𝒐*\n\n${oi}\n*ＨｙｐｅｒＭｉｅｍｂｒｏｓ*\n`
+let oi = `*𝘿𝙚𝙟𝙚𝙣 𝙡𝙖 𝙥𝙖𝙟𝙖 𝙮 𝙖𝙘𝙩í𝙫𝙚𝙣𝙨𝙚 𝙥𝙡𝙖𝙣𝙩𝙞𝙩𝙖𝙨🌱* ${pesan}`
+let teks = `*❄️𝙃𝙔𝙋𝙀𝙍´𝙑 𝙇𝙊𝙎 𝙄𝙉𝙑𝙊𝘾𝘼 𝘼 𝙏𝙊𝘿𝙊𝙎(𝘼)❄️*\n\n${oi}\n*🧊𝙈𝙀𝙉𝘾𝙄𝙊𝙉 𝙂𝙀𝙉𝙀𝙍𝘼𝙇 𝙃𝙔𝙋𝙀𝙍´𝙑:🧊*\n`
 for (let mem of participants) {
 teks += `🚀: @${mem.id.split('@')[0]}\n`}
-teks += `ℍ𝕪𝕡𝕖𝕣𝕍 𝕖𝕝 𝕞𝕖𝕛𝕠𝕥 𝔹𝕠𝕥 𝕕𝕖 𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡 / @BOYBENJX7`
+teks += `*🤖𝙊𝙬𝙣𝙚𝙧: https://wa.me/51936732723*`
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
