@@ -9,7 +9,6 @@ let teks = `✯ ${oi} ✯═╮\n`
 for (let mem of participants) {
 teks += `@${mem.id.split('@')[0]}💗`}
 teks += `
-
 ║
 ║     〘 ✯✯✯✯✯✯✯✯✯ 〙
 ║       
