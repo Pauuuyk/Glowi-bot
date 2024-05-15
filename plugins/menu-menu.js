@@ -22,20 +22,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *HyperVBot* —◉
+║    ◉— *❄𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏❄* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
+║➤ *❄𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* HyperV
-║➤ *Numero:* wa.me/51936732723
-║➤ *Creador 1:* wa.me/51936732723
-║➤ *Creador 2:* wa.me/51936732723
-║➤ *Instagram:* https://www.instagram.com/boybenjx7
-║➤ *Fecha:* ${date}
-║➤ *Tiempo activo:* ${uptime}
-║➤ *Usuarios regs:* ${rtotalreg}
-║➤ *Usuarios totales:* ${rtotal}
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+║➤ *🤖𝘽𝙤𝙩:* 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏
+║➤ *🤖𝙊𝙬𝙣𝙚𝙧:* wa.me/51936732723
+║➤ *🤖𝘾𝙧𝙚𝙖𝙙𝙤𝙧:* wa.me/51936732723
+║➤ *❄𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢:* https://www.instagram.com/boybenjx7
+║➤ *❄𝙁𝙚𝙘𝙝𝙖:* ${date}
+║➤ *❄𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤:* ${uptime}
+║➤ *❄𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙧𝙚𝙜𝙨:* ${rtotalreg}
+║➤ *❄𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙩𝙤𝙩𝙖𝙡𝙚𝙨:* ${rtotal}
+╰═══╡✯✯✯✯🤖𝙊𝙬𝙣𝙚𝙧:https://wa.me/51936732723✯✯✯✯╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< INFORMACION DEL USUARIO />*
