@@ -29,7 +29,6 @@ teks += `
 ║
 ║➤   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢: 
 ║
-╰═══╡  ╞═══╯
 
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
