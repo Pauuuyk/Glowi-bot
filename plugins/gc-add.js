@@ -2,8 +2,8 @@ const {generateWAMessageFromContent, prepareWAMessageMedia, proto} = (await impo
 import fetch from 'node-fetch';
 const {getBinaryNodeChild, getBinaryNodeChildren} = (await import('@whiskeysockets/baileys')).default;
 const handler = async (m, {conn, text, participants, args}) => {
-  if (!global.db.data.settings[conn.user.jid].restrict) throw '*⚠️ 𝙈𝙞 𝙊𝙬𝙣𝙚𝙧 http://wa.me/51936732723 𝙩𝙞𝙚𝙣𝙚 𝙧𝙚𝙨𝙩𝙧𝙞𝙣𝙜𝙞𝙙𝙤 𝙚𝙡 𝙪𝙨𝙤 𝙙𝙚 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 (.𝙧𝙚𝙨𝙩𝙧𝙞𝙘𝙩)*';
-  if (!args[0]) throw '*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙰𝙶𝚁𝙴𝙶𝙰𝚁*';
+  if (!global.db.data.settings[conn.user.jid].restrict) throw '*𝙈𝙄 𝙊𝙒𝙉𝙀𝙍 http://wa.me/51936732723 𝙏𝙄𝙀𝙉𝙀 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙇 𝙐𝙎𝙊 𝘿𝙀 𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 [.𝙧𝙚𝙨𝙩𝙧𝙞𝙘𝙩]*';
+  if (!args[0]) throw '*𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝘼𝙎 𝘼𝙂𝙍𝙀𝙂𝘼𝙍 [.𝙖𝙙𝙙 +51936732723]*';
   try {
     const _participants = participants.map((user) => user.id);
     const users = (await Promise.all(
