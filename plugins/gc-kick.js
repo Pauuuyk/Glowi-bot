@@ -1,6 +1,6 @@
 const handler = async (m, {conn, participants, command, usedPrefix}) => {
   if (!global.db.data.settings[conn.user.jid].restrict) throw '*𝙈𝙄 𝙊𝙒𝙉𝙀𝙍 http://wa.me/51936732723 𝙏𝙄𝙀𝙉𝙀 𝙍𝙀𝙎𝙏𝙍𝙄𝙉𝙂𝙄𝘿𝙊 𝙀𝙇 𝙐𝙎𝙊 𝘿𝙀 𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 [.𝙧𝙚𝙨𝙩𝙧𝙞𝙘𝙩]*';
-  const kicktext = `*𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝘼𝙎 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍:*\n\n*—◉ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊:*\n*${usedPrefix + command} @${global.suittag}*`;
+  const kicktext = `*𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝘼𝙎 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍*\n\n*—◉ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊:*\n*${usedPrefix + command} @${global.suittag}*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
   if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply('*[❗] 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 𝙰 𝚄𝙽𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙿𝙰𝚁𝙰 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁 𝙰𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*');
   if (m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== '') {
