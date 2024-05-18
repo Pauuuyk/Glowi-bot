@@ -1,5 +1,4 @@
 const handler = async (m, {conn}) => {
-const handler = async (m, {conn}) => {
   m.reply(global.Mascvivido22);
 };
 handler.command = /^(Mascvivido22|mascvivido22)$/i;
