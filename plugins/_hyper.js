@@ -8,6 +8,6 @@ handler.group = true
 handler.botAdmin = true
 
 global.hyper = ` 
-╭═ *❄️𝘼𝙉𝙊𝙏𝙀𝙉𝙎𝙀 𝘼𝙇 𝙑𝙎❄️*  ═╮
+*[𝐇𝐘𝐏𝐄𝐑´𝐕 𝐁𝐎𝐓]*
 
 `;
