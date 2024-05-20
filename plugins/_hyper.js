@@ -1,13 +1,13 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Fem16);
 };
-handler.command = /^(Feminfinito16|feminfinito16)$/i;
+handler.command = /^(hyper|hyper)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.Fem16 = ` 
+global.hyper = ` 
 ╭═ *❄️𝘼𝙉𝙊𝙏𝙀𝙉𝙎𝙀 𝘼𝙇 𝙑𝙎❄️*  ═╮
 ║
 ║➤     *❄️𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏❄️*
