@@ -10,39 +10,39 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51936732723', 'OwnerBenjaV', true],
-  ['51936732723', '@boybenjx7', true],
-  ['51936732723', 'HyperV', true],
-  ['51936732723', 'HyperV', true],
-  ['51936732723', 'HyperV', true],
-  ['51936732723', '@boybenjx7', true],
-  ['51936732723', '@boybenjx7', true],
-  ['51936732723', '@boybenjx7', false],
-  ['51936732723', '@boybenjx7', true],
-  ['51936732723', 'OwnerBenjaV', true],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'],
-  ['51936732723'], 
-  ['51936732723'],  
-  ['51936732723'], 
-  ['51936732723']
+  ['51936732723', '𝘾𝙍𝙀𝘼𝘿𝙊𝙍', true],
+  ['5493815526931', '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏', true],
+  ['5493815526931', '𝙃𝙔𝙋𝙀𝙍-𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼', true],
+  ['', '', true],
+  ['', '', true],
+  ['', '', true],
+  ['', '', true],
+  ['', '', false],
+  ['', '', true],
+  ['', '', true],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''], 
+  [''],  
+  [''], 
+  ['']
 ];
 
 global.suittag = ['51936732723'];
 global.prems = ['51936732723'];
 
-global.packname = 'HyperV';
-global.author = 'HyperV';
-global.wm = 'HyperV';
-global.titulowm = 'HyperV';
-global.titulowm2 = `HyperV`
-global.igfg = 'HyperV';
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.packname = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.author = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.wm = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.titulowm = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.titulowm2 = `𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏`
+global.igfg = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.wait = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -60,16 +60,17 @@ global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
 global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
 global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
-global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.tiempo = d.toLocaleString('es-ar', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ PolvoraBot`;
-global.gt = 'HyperV';
-global.mysticbot = 'HyperV';
-global.md = 'https://www.instagram.com/boybenjx7';
-global.mysticbot = 'https://www.instagram.com/boybenjx7';
-global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏`;
+global.gt = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.mysticbot = '𝙂𝙇𝙊𝙒𝙄 𝘽𝙊𝙏';
+global.md = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
+global.mysticbot = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
+global.fgbot = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
+global.waitt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.waittt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.waitttt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
 global.nomorown = '51936732723';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
